@@ -17,3 +17,4 @@ RUN uv sync --frozen --no-cache
 EXPOSE 8080
 
 CMD ["/code/.venv/bin/fastapi", "run", "--host", "0.0.0.0", "--port", "8080"]
+
